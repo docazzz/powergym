@@ -1,0 +1,629 @@
+body {
+	color:#fff;
+		
+}
+
+@font-face {
+	
+		font-family:"Georgia";
+		src:url("font/georgia.ttf");
+}
+*{
+	padding:0px;
+	margin:0px;
+
+	
+}
+#nav  {
+
+	width:100%;
+	height:130px;
+	
+	position:fixed;
+	
+	
+	
+	
+	
+}
+.prva a:hover{
+background-color:#fff;
+    animation:example;
+	animation-duration:3s;
+
+
+
+
+}
+.druga  h1  :hover{
+		background-color:#ff8533;
+}
+.druga h1 a:hover{
+	font-size:28px;
+	
+}
+.prva{
+	width:19%;
+	height:120px;
+	float:left;
+	
+	
+
+	
+	
+	
+}
+.druga{
+	width:55%;
+	height:120px;
+	float:right;
+	margin-right:150px;
+	
+	
+}
+.druga h1{
+	float:left;
+	padding:5px;
+	color:#fff;
+	margin-top:15px;
+}
+.druga h1 a{
+	text-decoration:none;
+    color:#fff;
+	font-family:"Georgia",Georgia,serif;
+	font-size:25px;
+	transition:font-size 1s;
+	
+	
+	
+	
+}
+
+
+#sred {
+	width:100%;
+	height:350px;
+	margin:0px auto;
+	margin-top:px;
+	border:15px;
+	border-color:#222;
+	
+}
+.sred1  h1 a{
+color:#fff;
+	font-family:"Georgia",Georgia,serif;
+	text-decoration:none;
+}
+.sred2  h1 a{
+	color:#fff;
+		font-family:"Georgia",Georgia,serif;
+		text-decoration:none;
+}
+
+.sred3  h1 a{
+	color:#fff;
+		font-family:"Georgia",Georgia,serif;
+		text-decoration:none;
+
+}
+
+
+
+#slidza{
+	background-image:URL("image/bg.jpg");
+	width:100%;
+	height:1000px;
+	
+}
+.sred1{
+	width:28%;
+	height:290px;
+	float:left;
+	margin-top:20px;
+	margin-left:2%;
+	text-align:center;
+	box-shadow:10px 10px 5px #000;
+	background-image:URL("image/ppp.jpg");	
+	border:2px solid #ff8533;
+		font-family:"Georgia",Georgia,serif;
+	text-decoration:none;
+	transition:width 1s,height 1s;
+	
+	
+	
+}
+.sred1:hover{
+	width:30%;
+	height:300px;
+
+	
+}
+.sred2:hover{
+	width:30%;
+	height:300px;
+
+	
+}
+.sred3:hover{
+	width:30%;
+	height:300px;
+
+	
+}
+.sred1 h1:hover{
+	background-color:#ff8533;
+	
+}
+.sred2 h1:hover{
+	background-color:#ff8533;
+	
+}
+.sred3 h1:hover{
+	background-color:#ff8533;
+	
+}
+#nasi h1:hover{
+	font-size:50px;
+	
+	
+	
+}
+
+
+.sred2{
+	width:28%;
+	height:290px;
+	float:left;
+	margin-top:20px;
+	margin-left:5.5%;
+	text-align:center;
+	box-shadow:10px 10px 5px #000;
+	background-image:URL("image/slika17.jpg");
+	border:2px solid #ff8533;
+		font-family:"Georgia",Georgia,serif;
+		text-decoration:none;
+		transition:width 1s,height 1s;
+}
+.sred3{
+	width:28%;
+	height:290px;
+	float:right;
+	margin-top:20px;
+	margin-right:2%;
+	text-align:center;
+	box-shadow:10px 10px 5px #000;
+	background-image:URL("image/slika18.jpg");
+	border:2px solid #ff8533;
+	font-family:"Georgia",Georgia,serif;
+	text-decoration:none;
+	transition:width 1s,height 1s;
+}
+#pod{
+	width:100%;
+	height:300px;
+	
+	
+}
+.pod1{
+	width:60%;
+	height:150px;
+	margin:0px auto;
+	background-color:#222;
+	margin-top:50px;
+	text-align:center;
+	border: 2px solid #ff8533;
+		font-family:"Georgia",Georgia,serif;
+		transition:height 2s, width 2s;
+
+}
+.pod1 h1{
+    color:#fff;
+		font-family:"Georgia",Georgia,serif;
+}
+.pod1 p b{
+	color:#fff;
+		font-family:"Georgia",Georgia,serif;
+}
+
+#treneri{
+	height:400px;
+	width:100%;
+	background-color:#222;
+	margin-bottom:100px;
+	border-color:#222;
+}
+#nasi h1{
+	text-align:center;
+	color:#fff;
+	font-size:40px;
+	font-family:"Georgia",Georgia,serif;
+	transition:font-size 1s;
+		
+}
+#nasi p{
+	text-align:center;
+	color:#fff;
+	font-size:30px;
+		font-family:"Georgia",Georgia,serif;
+}
+
+.trener1{
+	height:300px;
+	width:25%;
+	float:left;
+	margin:4%;
+    background-image:URL("image/pers1.jpg");
+	border: 2px solid #ff8533;
+}
+.trener2{
+	height:300px;
+	width:25%;
+	float:left;
+	margin:4%;
+	background-image:URL("image/pers2.jpg");
+	border: 2px solid #ff8533;
+	
+
+}
+.trener3{
+	height:300px;
+	width:25%;
+	float:right;
+	margin:4%;
+	background-image:URL("image/pers3.jpg");
+	border: 2px solid #ff8533;
+	
+	
+
+}
+.vise1{
+	width:35%;
+	height:45px;
+	background-color:#ff8533;
+	margin:0px auto;
+	margin-top:250px;
+    border:2px solid  #fff;
+	text-align:center;
+	transition:height 1s,width 1s;
+	
+}
+.vise1 a{
+	
+	text-decoration:none;
+	color:#fff;
+	font-size:20px;
+}
+
+
+
+#podnozje{
+	width:100%;
+	height:250px;
+	text-align:center;
+	background-color:#222;
+	font-family:"Georgia",Georgia,serif;
+	
+	
+
+}
+.podnozje1{
+	width:30%;
+	height:200px;
+	background-color:#222;
+	float:left;
+	padding-top:50px;
+	padding-left:45px;
+	text-align:left;
+	font-family:"Georgia",Georgia,serif;
+	
+
+	
+	
+
+	
+}
+.podnozje1 p  :hover{
+	background-color:#ff8533;
+}
+.podnozje1 p a {
+	
+	text-decoration:none;
+	color:#fff;
+	font-family:"Georgia",Georgia,serif;
+	font-size:20px;
+	transition:background-color 1s;
+
+}
+
+
+.podnozje2 {
+	width:15%;
+	height:30px;
+	float:right;
+	margin-top:80px;
+	transition:width 1s,height 1s;
+	
+	
+}
+.podnozje2 :hover{
+	width:20%;
+	height:40px;
+}
+#kontakt{
+	
+	
+	width:100%;
+	height:500px;
+	margin-top:70px;
+	background-color:#000;
+}
+.kontakt1 form input{
+	width:100%;
+	height:100%;
+}
+	
+.kontakt1{
+	
+	
+	width:25%;
+	height:70px;
+	
+	float:left;
+	
+	
+}
+.kontakt2{
+	width:25%;
+	height:70px;
+	float:left;
+}
+
+
+
+.kontakt3{
+	width:25%;
+	height:70px;
+	float:left;
+	
+
+}
+
+.kontakt4{
+	width:70%;
+	height:300px;
+	background-color:#fff;
+	margin-left:150px;
+	margin-right:150px;
+    margin-top:200px;	
+	
+
+}
+#autor{
+	width:100%;
+	height:400px;
+	background-color:#222;
+	border:5px solid #222;
+	margin-bottom:200px;
+	
+	
+}
+.about h1:hover{
+	
+	color:#ff8533;
+}
+
+	
+
+	
+	
+
+
+.about{
+	float:right;
+	width:50%;
+	height:300px;
+	  box-sizing: border-box;
+}
+
+
+	
+
+
+
+.about h1{
+	text-align:center;
+	font-size:60px;
+	}
+.about h1 a{
+	text-align:center;
+	font-size:40px;
+	
+}
+
+#futer{
+	height:300px;
+	width:100%;
+}
+#power{
+	height:400px;
+	width:100%;
+	margin-bottom:100px;
+	
+}
+.power1{
+	height:300px;
+	width:20%;
+	float:left;
+	margin:2%;
+	text-align:center;
+	background-image:URL("image/tegg.jpg");
+    border: 2px solid #ff8533;
+	transition:height 1s,width 1s;
+
+
+}
+.power1 a  :hover{
+	background-color:#ff8533;
+}
+.power2 a  :hover{
+	background-color:#ff8533;
+}
+.power3 a  :hover{
+	background-color:#ff8533;
+}
+.power4 a  :hover{
+	background-color:#ff8533;
+	font-size:20px;
+}
+.power4 a h1:hover{
+		background-color:#ff8533;
+		font-size:30px;
+}
+	
+.power2{
+	height:300px;
+	width:20%;
+	float:left;
+	margin:2%;
+	text-align:center;
+	border: 2px solid #ff8533;
+	background-image:URL("image/pers7.jpg");
+	transition:height 1s,width 1s;
+			
+}
+
+.power3{
+	height:300px;
+	width:20%;
+	float:right;
+	margin:2%;
+	text-align:center;
+	border: 2px solid #ff8533;
+	background-image:URL("image/sliika.jpg");
+	transition:height 1s,width 1s;
+		
+
+}
+
+.power4{
+	height:300px;
+	width:20%;
+	float:right;
+	margin:2%;
+	text-align:center;
+		border: 2px solid #ff8533;
+		background-image:URL("image/mapa2.jpg");
+		font-size:15px;
+		transition:height 1s,width 1s;
+	
+}
+.power1  a{
+	text-decoration:none;
+	color:#fff;
+}
+.power2  a{
+	text-decoration:none;
+	color:#fff;
+}
+.power3  a{
+	text-decoration:none;
+	color:#fff;
+}
+.power4  a{
+	text-decoration:none;
+	color:#fff;
+	
+	
+}
+
+#gal {
+	width:100%;
+	
+}
+
+.gal1{
+	float:left;
+	margin-left:30px;
+}
+.gal2{
+	float:left;
+	margin-left:30px;
+}
+.gal3 {
+	float:left;
+	margin-left:30px;
+}
+.gal4{
+	float:left;
+	margin-left:30px;
+}
+.gal5{
+	float:left;
+	margin-left:39px;
+}
+.gal6{
+	float:left;
+	margin-left:47px;
+}
+.gal7{
+	float:left;
+	
+}
+.gal8{
+	float:left;
+}
+.gal9{
+	float:left;
+}
+
+
+.pod1:hover{
+	width:62%;
+	height:205px;
+}
+.vise1:hover{
+	width:40%;
+	height:50px;
+}
+	
+.power1:hover{
+	width:21%;
+	height:305px;
+	
+}
+.power2:hover{
+	width:21%;
+	height:305px;
+	
+}
+
+.power3:hover{
+	width:21%;
+	height:305px;
+	
+}
+
+.power4:hover{
+	width:21%;
+	height:305px;
+	
+}
+
+@keyframes example{
+  0%{background-color: #fff;}
+  25%  {background-color: #ff8533;}
+  50%  {background-color#fff ;}
+  100% {background-color: #ff8533;}
+}
+
+	
+	
+
+
+
+
+
+
+
+
+
